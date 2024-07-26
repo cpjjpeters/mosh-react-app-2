@@ -6,7 +6,7 @@ function ProductList() {
   useEffect(() => {
     console.log("Fetching products");
     setProducts(["clothing", "electronics"]);
-  });
+  }, []);
 
   return (
     <>

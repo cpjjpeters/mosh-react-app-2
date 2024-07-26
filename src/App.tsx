@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { ProductList } from "./ProductList";
+import ProductList from "./ProductList";
 function App() {
   return (
     <>
