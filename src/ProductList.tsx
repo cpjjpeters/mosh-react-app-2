@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function ProductList() {
-  const [products, setProducts] = useState<string>([]);
+  const [products, setProducts] = useState<string[]>([]);
 
   useEffect(() => {
     console.log("Fetching products");
